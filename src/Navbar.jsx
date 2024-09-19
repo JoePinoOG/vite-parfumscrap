@@ -25,9 +25,10 @@ function Navbar() {
                 <li className="p-3 hover:bg-sky-400 hover:text-white 
                 rounded-md transition-all"> Unisex </li>
             </ul> 
-            <div className="relative hidden md:flex items-center justify-center gap-3">
-                <i className="bx bx-search absolute left-3 text 2xl text-gray-500"></i>
+            <div className="relative ml:hidden md:flex items-center justify-center gap-3">
+                <i className="bx bx-search top-1/2 -translate-y-1/2 absolute left-3 text 2xl text-gray-500"></i>
                 <input type="text" placeholder="Search..." className="py-2 pl-10 rounded-xl border-2
+                 text-black focus:text-white
                  border-blue-300 focus:bg-gray-700 focus:outline-sky-500"/>
  
             </div>
@@ -44,6 +45,12 @@ function Navbar() {
                     hover:text-white transition-all cursor-pointer ">Hombre</li>
                     <li className="list-none w-full text-center p-4 hover:bg-sky-400
                     hover:text-white transition-all cursor-pointer ">Unisex</li>
+
+
+                     
+
+                    
+ 
 
                 </div>
         </header>
