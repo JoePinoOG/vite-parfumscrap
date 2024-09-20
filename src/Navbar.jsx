@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
 
-    <div className= "w-full h-full absolute bg-blue-400">
+    <div className= "w-full h-full ">
 
         <header className="flex justify-between items-center text-white
         py-6 px-8 md:px32 bg-gray-700 drop-shadow-md">
