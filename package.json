@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@headlessui/react": "^2.1.8",
-    "@heroicons/react": "^2.1.5",
+    "@heroicons/react": "^2.2.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "boxicons": "^2.1.4",
     "puppeteer": "^23.3.1",
